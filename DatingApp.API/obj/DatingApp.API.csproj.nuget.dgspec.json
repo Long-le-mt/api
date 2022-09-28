@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DaiHocBachKhoa\\Htap\\LastYear_Term1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj": {}
+    "E:\\DaiHocBachKhoa\\Htap\\Nam4_Ki1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "E:\\DaiHocBachKhoa\\Htap\\LastYear_Term1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj": {
+    "E:\\DaiHocBachKhoa\\Htap\\Nam4_Ki1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DaiHocBachKhoa\\Htap\\LastYear_Term1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "E:\\DaiHocBachKhoa\\Htap\\Nam4_Ki1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "E:\\DaiHocBachKhoa\\Htap\\LastYear_Term1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "E:\\DaiHocBachKhoa\\Htap\\Nam4_Ki1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\DaiHocBachKhoa\\Htap\\LastYear_Term1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\obj\\",
+        "outputPath": "E:\\DaiHocBachKhoa\\Htap\\Nam4_Ki1\\Kiến trúc hướng dịch vụ\\API\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

@@ -1,11 +1,18 @@
-var builder = WebApplication.CreateBuilder(args);
+using DatingApp.API.Data;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
+var services = builder.Services;
+var connectionString = builder.Configuration.GetConnectionString("Default");
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+services.AddDbContext<DataContext>(options =>
+    options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
